@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
-    "deploy": "ionic build --prod && echo > dist/browser/.nojekyll && gh-pages -d dist/browser && ng deploy --base-href=/ionic-viacep/"
+    "deploy": "ionic build --prod && echo > dist/browser/.nojekyll && gh-pages -d dist/browser"
   },
   "private": true,
   "dependencies": {
